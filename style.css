@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background-color: #ffb900; /* Exakt dein Gelb aus dem Bild */
+  background-color:  #FFBF00; /* Exakt dein Gelb aus dem Bild */
   color: #000000; /* Schwarze Schrift für hohen Kontrast */
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   display: flex;
@@ -58,3 +58,4 @@ footer {
     font-size: 1rem;
   }
 }
+
