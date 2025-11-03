@@ -1,7 +1,8 @@
 body {
   margin: 0;
   height: 100vh;
-  background-color: #ffcc00; /* Happy Lemon yellow */
+  background-color: #000000;        /* schwarzer Hintergrund */
+  color: #ffffff;                   /* weiße Schrift */
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -10,25 +11,29 @@ body {
   text-align: center;
 }
 
+/* gelber Kasten hinter dem Logo – Farbton aus deinem Sample */
+.logo-wrapper {
+  background-color: #ffc000;
+  padding: 40px;
+  margin-bottom: 24px;
+}
+
 .logo {
   width: 220px;
   max-width: 60%;
   height: auto;
-  margin-bottom: 20px;
-  animation: fadeIn 1.5s ease-in-out;
+  display: block;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: 700;
   margin: 10px 0;
-  animation: fadeIn 2s ease-in-out;
 }
 
 p {
   font-size: 1.2rem;
   margin: 4px 0;
-  animation: fadeIn 2.5s ease-in-out;
 }
 
 footer {
@@ -39,20 +44,9 @@ footer {
 }
 
 a {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 @media (max-width: 600px) {
@@ -66,7 +60,8 @@ a {
 body {
   margin: 0;
   height: 100vh;
-  background-color: #ffcc00; /* Happy Lemon yellow */
+  background-color: #000000;        /* schwarzer Hintergrund */
+  color: #ffffff;                   /* weiße Schrift */
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -75,25 +70,29 @@ body {
   text-align: center;
 }
 
+/* gelber Kasten hinter dem Logo – Farbton aus deinem Sample */
+.logo-wrapper {
+  background-color: #ffc000;
+  padding: 40px;
+  margin-bottom: 24px;
+}
+
 .logo {
   width: 220px;
   max-width: 60%;
   height: auto;
-  margin-bottom: 20px;
-  animation: fadeIn 1.5s ease-in-out;
+  display: block;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: 700;
   margin: 10px 0;
-  animation: fadeIn 2s ease-in-out;
 }
 
 p {
   font-size: 1.2rem;
   margin: 4px 0;
-  animation: fadeIn 2.5s ease-in-out;
 }
 
 footer {
@@ -104,20 +103,9 @@ footer {
 }
 
 a {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 @media (max-width: 600px) {
