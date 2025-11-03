@@ -1,8 +1,8 @@
 body {
   margin: 0;
   height: 100vh;
-  background-color: #000000;        /* schwarzer Hintergrund */
-  color: #ffffff;                   /* weiße Schrift */
+  background-color: #ffb900; /* Exakt dein Gelb aus dem Bild */
+  color: #000000; /* Schwarze Schrift für hohen Kontrast */
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -11,29 +11,25 @@ body {
   text-align: center;
 }
 
-/* gelber Kasten hinter dem Logo – Farbton aus deinem Sample */
-.logo-wrapper {
-  background-color: #ffc000;
-  padding: 40px;
-  margin-bottom: 24px;
-}
-
 .logo {
   width: 220px;
   max-width: 60%;
   height: auto;
-  display: block;
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: 700;
   margin: 10px 0;
+  animation: fadeIn 2s ease-in-out;
 }
 
 p {
   font-size: 1.2rem;
   margin: 4px 0;
+  animation: fadeIn 2.5s ease-in-out;
 }
 
 footer {
@@ -43,69 +39,15 @@ footer {
   opacity: 0.8;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.6rem;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
-  p {
-    font-size: 1rem;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-}
-body {
-  margin: 0;
-  height: 100vh;
-  background-color: #000000;        /* schwarzer Hintergrund */
-  color: #ffffff;                   /* weiße Schrift */
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-/* gelber Kasten hinter dem Logo – Farbton aus deinem Sample */
-.logo-wrapper {
-  background-color: #ffc000;
-  padding: 40px;
-  margin-bottom: 24px;
-}
-
-.logo {
-  width: 220px;
-  max-width: 60%;
-  height: auto;
-  display: block;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-p {
-  font-size: 1.2rem;
-  margin: 4px 0;
-}
-
-footer {
-  position: absolute;
-  bottom: 20px;
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 500;
 }
 
 @media (max-width: 600px) {
